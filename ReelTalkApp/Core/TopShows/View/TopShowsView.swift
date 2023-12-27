@@ -80,8 +80,7 @@ struct TopShowsView: View {
                                     }
                                 }) {
                                     ShowsCardView(show: show, isSelected: selectedShows.contains(show.originalTitleText.text))
-                                        .padding()
-                                        .foregroundColor(Color.white)
+//                                        .padding()
                                 }
                             }
                         }

@@ -76,7 +76,7 @@ struct TopMoviesView: View {
                                         selectedMovies.insert(movie.originalTitleText.text)
                                     } else {
                                         //If user tries to select more than 5 movies
-                                        print("You can only select up to 3 movies.")
+                                        print("You can only select up to 5 movies.")
                                     }
                                 }) {
                                     MoviesCardView(movie: movie, isSelected: selectedMovies.contains(movie.originalTitleText.text))
